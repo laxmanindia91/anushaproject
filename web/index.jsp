@@ -1,6 +1,7 @@
 <% if(session.getAttribute("usrname")!= null){
     response.sendRedirect("addMem.jsp");
 } %>
+<!-- Divya PC 4 code -->
 <!DOCTYPE html>
 <html>
 <head>

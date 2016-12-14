@@ -1,0 +1,42 @@
+ @media print {
+          a[href]:after {
+            content: none !important;
+            }
+          .printbtn, #hideActiontd,#selectvalFund,#hideActiontd1,#headHide2,#selectval,#filter, #dd,#actionhide, #printmem, #ac ,#header1 ,#header2,#hideH1, #searchHide,#scrollhide,#headHide2 {display:none}
+        
+           }
+  .ui-datepicker-calendar {
+       display: none;
+    }
+  .ui-datepicker-month {
+       display: none;
+    }
+  .ui-datepicker-prev{
+       display: none;
+    }
+  .ui-datepicker-next{
+       display: none;
+    }
+    .changeForm{
+         display: none;
+   }
+.bottom_content{
+                text-align: center;
+                background-color: #999;
+                height:30px;
+                margin-top:10px;
+            }
+#fromyear{float: left; padding-left:2px;}
+#fromyear input{width: 120px; padding-right: 1px;} 
+ #fromto{float: right;padding-right:  110px;} 
+.formfields{margin-top: 23px;}       
+#fromto input{width: 148px; padding-left: 1px;}  
+.formfields label{float:left;margin-right: 10px;top:10px;}
+#yearvalue {
+    margin-left: 3px;
+} 
+#memberNames{ margin-left: 15px; padding: 0px 10px;}  
+#cashierDiv select{ margin-left: 15px;padding: 0px 10px;}
+
+            
+ 

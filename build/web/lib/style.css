@@ -1,0 +1,26 @@
+*{
+	margin:0;
+	padding:0;
+}
+.mobile_menu{display:none;}
+.menu{    width: 100%;
+    float: left;
+    background: #f00;
+    padding: 5px;}
+.menu ul.nav-navbar li{float:left;
+    text-decoration: none;
+    list-style: none; position:relative;}
+	.menu ul.nav-navbar li a{ color:#ed1c25;padding:10px 15px;background: #fff; font-weight:700; font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif; }
+	.menu ul.nav-navbar li a:hover, .menu ul.nav-navbar li a:focus{ color:#fff; background:#ed1c24;}
+	.menu ul.nav-navbar>li>ul.submenu{ display:none; width:100px; background:#fff; position:absolute; top:25px; left:0px;}
+	.menu ul.nav-navbar>li>ul.submenu.show1{display:block;}
+	.menu ul.nav-navbar>li:hover ul.submenu, .menu ul.nav-navbar>li:focus ul.submenu{ display:block;}
+	.menu ul.nav-navbar>li>ul.submenu li{ margin-top:10px;}
+	.menu ul.nav-navbar>li>ul.submenu li > ul.sub-submenu{ display:none; position:absolute; top:0px; left:50px;;}
+		.menu ul.nav-navbar>li>ul.submenu li > ul.sub-submenu.show1{display:block;}
+	.menu ul.nav-navbar>li>ul.submenu li:hover ul.sub-submenu{ display:block;}
+@media (max-width: 768px)
+{
+	.mobile_menu{display:block;}
+	.menu{display:none;}
+}

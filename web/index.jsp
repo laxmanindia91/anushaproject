@@ -1,7 +1,7 @@
 <% if(session.getAttribute("usrname")!= null){
     response.sendRedirect("addMem.jsp");
 } %>
-<!--Anusha PC 3 Code commit -->
+<!--Anusha PC 3 Code commit 1 -->
 <!DOCTYPE html>
 <html>
 <head>
